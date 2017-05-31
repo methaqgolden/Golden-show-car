@@ -14,7 +14,7 @@ app.controller("fordCtrl", function ($scope) {
             img: "http://www.almrsal.com/wp-content/uploads/2013/02/images4.jpg"
                 },
         {
-            name: "FORD-6",
+            name: "FORD-6", 
             price: "$56000",
              year: 2018,
             img: "http://www.almuraba.net/2012/Ford-Edge/draft_lens17672510module148447581photo_12984327632012-ford-edge.jpg"
