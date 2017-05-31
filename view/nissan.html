@@ -1,0 +1,28 @@
+<a href="http://hyundai-2017.cs4x.com/">
+    <div id="new">Click Here To Choose Your Car<br><img src="http://thumb7.shutterstock.com/display_pic_with_logo/795880/229158424/stock-photo-keyboard-with-click-me-now-button-internet-concept-229158424.jpg"> </div>
+</a>
+
+<div class="container">
+    <h3 class="well">Golden Music Video</h3>
+    <div ng-repeat="person in arr">
+        <div class="row text-center">
+            <div ng-repeat="person in arr">
+                <div class="col-lg-4">
+                    <div id="mazin">
+                        <p class="well">{{person.artistName}}</p>
+                        <p class="well"> <img ng-src={{person.artworkUrl100}} id="methaq" /></p>
+                        <p class="well">{{person.collectionName}}</p>
+                        <p class="well">{{person.country}}</p>
+                        <!--
+                            <div class="well">
+                                <video width="320" height="240" controls>
+                                      <source ng-src={{person.previewUrl}} type="video/mp4">
+                                </video>
+                            </div>
+-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

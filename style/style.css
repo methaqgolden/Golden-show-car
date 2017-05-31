@@ -1,0 +1,90 @@
+body {
+    background-color: lightpink;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    height: 60px;
+    width: 500px;
+    margin-left: 425px;
+    margin-top: 50px
+}
+
+div {
+    text-align: center;
+}
+
+#mazin {
+    text-align: center;
+    margin: auto;
+}
+#mazin1 {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.footer {
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/uk_cars3_flex-hero_header_r_351fa582.jpeg");
+    background-size: cover;
+    height: 100px;
+    width: 80%;
+    margin-left: 150px;
+    text-align: center;
+    border-radius: 40%;
+    opacity: 0.9;
+}
+
+#pic {
+    width: 100px;
+    height: 50px;
+    margin-left: 1000px;
+}
+
+#methaq {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+#myHeader {
+    width: 100%;
+    height: 100px;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 30px;
+}
+
+#new img {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+p:hover, h1:hover, h3:hover, a:hover {
+    background-color: #C5CAE9;
+}
+a.ex2:hover, a.ex2:active {
+    font-size: 150%;
+}

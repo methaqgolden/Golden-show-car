@@ -1,0 +1,30 @@
+<div class="container" ng-repeat="type in names track by $index" id="mazin1">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="thumbnail">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 class="Well">{{type.name}}</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 class="Well">{{type.price}}</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 class="Well">{{type.year}}</h3>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="thumbnail">
+                        <img ng-src={{type.img}}>
+                        <b>Notes:</b>
+                        <p>Safety Notes Cars: Please ride to the car with your right foot Sunday, 28 May, 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

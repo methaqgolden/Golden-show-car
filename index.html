@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Golden Cars Show</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="mainCtrl">
+
+    <my-nav></my-nav>
+    <h1 class="well">Golden Cars Show</h1>
+    <header>
+        <video autoplay loop>
+  <source src="5262c871c2b7f99253ee77b3e3219453e87fdc64.mp4" type="video/mp4">
+</video>
+        <audio autoplay>
+  <source src="racecar2.mp3" type="audio/mpeg">
+</audio>
+    </header>
+    <ng-view></ng-view>
+
+                    <div class="footer">
+                        <center>Golden Cars Show<br>Design by Methaq Golden<a class="ex2" href="https://www.youtube.com/watch?v=oBBLiX3_lqo">Modern Cars.com!</a></center>
+                        <img src="123456.png" id="pic">
+                    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="./js/bmw.js"></script>
+    <script src="./js/ford.js"></script>
+    <script src="./js/nissan.js"></script>
+    <script src="./js/directive.js"></script>
+    <script src="./js/service.js"></script>
+</body>
+
+</html>
